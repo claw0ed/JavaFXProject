@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -25,12 +26,15 @@ public class FXmain4Controller {
 		Stage about = new Stage();
 		about.setScene( new Scene(root) );
 		about.setTitle("프로그램 정보");
+		about.getIcons().add(new Image("/claw0ed/icons/twitter.png"));
 		
 		// 프로그램 정보창을 모달창으로 띄우기 위해
 		// 현재 표시된 메인 원도우의 객체를 가져욤
 		Stage main = (Stage) mainPane.getScene().getWindow();
 		about.initModality(Modality.WINDOW_MODAL);
 		about.initOwner(main);
+		
+		about.setResizable(false); // 크기 조정불가
 		
 		about.show();
 	}
