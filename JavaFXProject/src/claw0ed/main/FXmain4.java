@@ -19,6 +19,8 @@ public class FXmain4 extends Application {
 		pStage.getIcons().add(new Image("/claw0ed/icons/twitter.png"));
 		pStage.setScene(new Scene(root, 640, 480));
 		
+		pStage.setResizable(false); // 크기 조정불가
+		
 		pStage.show();
 		
 	}

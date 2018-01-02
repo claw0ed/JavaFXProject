@@ -7,19 +7,17 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" 
-minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" 
-xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="claw0ed.controller.FXmain4Controller"
->
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
+prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" 
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="claw0ed.controller.FXmain4Controller">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
           <Menu mnemonicParsing="false" text="파일">
             <items>
               <MenuItem mnemonicParsing="false" onAction="#exitApp" text="프로그램 종료">
-              	<graphic>
+              <graphic>
               		<ImageView>
               			<image>
               				<Image url="/claw0ed/icons/twitter_16x16.png" />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="197.0" prefWidth="347.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+   <children>
+      <ImageView fitHeight="94.0" fitWidth="100.0" layoutX="52.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/twitter.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="189.0" layoutY="38.0" text="프로그램 정보" />
+      <Label layoutX="180.0" layoutY="66.0" text="JavaFX App v1.0" />
+      <Label layoutX="172.0" layoutY="96.0" text="Copyright (c) 2018" />
+      <Label layoutX="105.0" layoutY="154.0" text="이 제품의 사용자 : claw0ed" />
+   </children>
+</AnchorPane>
