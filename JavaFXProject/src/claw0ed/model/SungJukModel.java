@@ -33,8 +33,17 @@ public class SungJukModel {
 		int tot = Integer.parseInt(getKor()) +
 				Integer.parseInt(getEng()) +
 				Integer.parseInt(getMat());
+		
 		double avg = (double)tot / 3;
+		
 		String grd ="가";
+		switch ((int) avg / 10) {
+		case 10:
+		case 9: grd = "수"; break;
+		case 8: grd = "우"; break;
+		case 7: grd = "미"; break;
+		case 6: grd = "양"; break;
+		}
 		
 		setTot(String.valueOf(tot));
 		setAvg(String.valueOf(avg));
