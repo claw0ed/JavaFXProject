@@ -46,7 +46,7 @@ public class SungJukModel {
 		}
 		
 		setTot(String.valueOf(tot));
-		setAvg(String.valueOf(avg));
+		setAvg(String.format("%.1f", avg)); // 소수점 1자리
 		setGrd(grd);
 		
 	}
