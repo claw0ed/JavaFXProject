@@ -1,23 +1,23 @@
 package claw0ed.controller;
 
-import java.lang.Thread.State;
+//import java.lang.Thread.State;
 import java.net.URL;
-import java.util.Properties;
+//import java.util.Properties;
 import java.util.ResourceBundle;
 
-import javax.swing.text.TabableView;
+//import javax.swing.text.TabableView;
 
 import claw0ed.model.SungJukModel;
-import javafx.collections.ObservableArray;
+//import javafx.collections.ObservableArray;
 import javafx.collections.ObservableList;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
+//import javafx.scene.control.Alert.AlertType;
+//import javafx.scene.control.Label;
+//import javafx.scene.control.PasswordField;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
